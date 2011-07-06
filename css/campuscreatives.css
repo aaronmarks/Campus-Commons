@@ -1,0 +1,95 @@
+body {
+	background:url('http://sky-pictures.co.cc/images/iv/new_york_skyline-wide.jpg');
+	color:#0000000;
+	font-family:Helvetica Neue Arial Lucida, sans-serif;
+} 
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+#header{
+	display:block;
+	margin:auto;
+	width:1000px;
+	text-align:center;
+	margin-top:100px;
+}
+
+#header h1{	
+         font-size: 50px;
+}
+	
+#header ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+        text-align: center;
+        font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+        text-align:center;
+}
+
+    
+#header li {
+	float: left;
+	border-right: 1px solid #bbb;
+	border-bottom-width: 0;
+	margin: 0;
+}
+
+#header li:nth-child(6){
+	border-right:none;
+}
+    
+#header a {
+	text-decoration: none;
+	display: block;
+	padding: 0.24em 1em;
+	color: black;
+	width: 8em;
+	text-align: center;
+}
+	
+#header a:hover {
+	background: rgb(240,240,240);
+}
+	
+#header #selected {
+	border-color: black;
+}
+	
+#header #selected a {
+	position: relative;
+	top: 1px;
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+	
+#content{
+	clear: both;
+	padding: 0 1em;
+	text-align: center;
+	font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+}
+
+#email {
+	width:800px; 
+	margin-left:40%; margin-right:40%;
+	text-align: right;
+	font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+}
+	

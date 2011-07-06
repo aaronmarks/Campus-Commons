@@ -1,0 +1,32 @@
+#container{
+	width:1060px;
+	margin:auto;
+	margin-top:50px;
+}
+
+#leftHalf{
+	border-right:solid rgb(80,80,80) 2px;
+	height:620px;
+	width:600px;
+	float:left;
+	padding-right:30px;
+}
+
+#rightHalf{
+	width:390px;
+	float:right;
+}
+
+#rightHalf a{
+	color:black;
+	text-decoration:none;
+}
+
+#userGallery{
+	width:85%;
+	margin:auto;
+}
+
+#userGallery td{
+	padding-bottom: 10px;
+}

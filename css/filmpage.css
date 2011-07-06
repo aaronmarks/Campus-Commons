@@ -1,0 +1,45 @@
+#wrapper{
+	width:1060px;
+	margin:auto;
+}
+
+h2{
+	font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+   	font-size:24px; 
+    font-weight:200; 
+  	letter-spacing:1px; 
+}
+
+#vidTable{
+	width:100%;
+}
+
+#vidTable td{
+	width:33%;
+	padding-right:30px;
+	text-align:center;
+}
+
+#vidTable tr{
+	display:block;
+	margin-bottom:30px;
+}
+
+#vidTable a{
+	color:black;
+	text-decoration:none;
+}
+
+#vidTable a:hover{
+	text-decoration:underline;
+}
+
+iframe{
+	display:inline;
+}
+
+#nextPrevious{
+	width:150px;
+	margin:auto;
+	text-align:center;
+}

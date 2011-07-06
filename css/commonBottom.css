@@ -1,0 +1,51 @@
+#footer {
+	clear: both;
+	bottom: 0;
+}
+
+#footer ul {
+	list-style: none;
+        text-align: center;
+        font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:10px; 
+        font-weight:200px; 
+        letter-spacing:1px; 
+        line-height:12px; 
+        padding:10px 10px 0 450px;
+}
+
+    
+#footer li {
+	float: left;
+	border-right: 1px solid #bbb;
+	border-bottom-width: 0;
+}
+
+#footer li:nth-child(5){
+	border-right:none;
+}
+    
+#footer a {
+	text-decoration: none;
+	display: block;
+	padding: 0.24em 1em;
+	color: black;
+	width: 8em;
+	text-align: center;
+}
+	
+#footer a:hover {
+	background: rgb(240,240,240);
+}
+	
+#footer #selected {
+	border-color: black;
+}
+	
+#footer #selected a {
+	position: relative;
+	top: 1px;
+	background: white;
+	color: black;
+	font-weight: bold;
+}

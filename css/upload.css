@@ -1,0 +1,141 @@
+
+body {
+	font-family:Helvetica Neue Arial Lucida, sans-serif;
+	height: 100%;
+}
+
+input, textarea, select{
+	font-family: Helvetica Neue Arial Lucida, sans-serif;
+	font-size: 11px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+        text-align: center;
+        font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+        text-align:center;
+}
+
+
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+/******* /GENERAL RESET *******/
+/******* REUSE *******/
+
+h2{
+	color: #333333;
+	font-size: 22px;
+}
+/******* /REUSE *******/
+/******* CONTAINER *******/
+#container{
+	width: 1000px;
+	margin: auto;
+}
+/******* /CONTAINER *******/
+/******* TOP *******/
+#top{
+	display:block;
+	margin:auto;
+	width:1000px;
+	text-align:center;
+	margin-top:1px;
+}
+#top h1{
+	 color: #333333;
+         font-size: 50px;
+         display:block;
+	width:1000px;
+	text-align:center;
+	margin-top:200px;
+}
+/******* /TOP *******/
+/******* MENU *******/
+#top #menu ul {
+	list-style: none;
+        font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+        text-align:center;
+}
+#top #menu li{
+	float: left;
+	border-right: 1px solid #bbb;
+	border-bottom-width: 0;
+	margin: 0;
+	text-align: center;
+}
+
+#top #menu li:nth-child(5){
+	border-right:none;
+}
+
+#top #menu li:hover{
+	background: rgb(240,240,240);
+	cursor: pointer;
+}
+
+#top #menu li {
+	text-decoration: none;
+	display: block;
+	padding: 0.24em 1em;
+	color: black;
+	width: 8em;
+	text-align: center;
+}
+#top #menu #selected {
+	border-color: black;
+}
+	
+#top #menu #selected li {
+	position: relative;
+	top: 1px;
+	background: white;
+	color: black;
+	font-weight: bold;
+}
+/******* /MENU *******/
+/******* LOADING *******/
+#loading{
+	text-align: center;
+	visibility: hidden;
+}
+/******* /LOADING *******/
+/******* CONTENT *******/
+#content{
+	color: #7e7e7e;
+	margin: 0 0 20px 0;
+	line-height: 1.3em;
+	font-size: 11px;
+}
+#content p{
+	margin-bottom: 0.7em;
+}
+#content a{
+	font-weight: 700;
+	color: #6fa5fd;
+	border-bottom: 1px dotted #6fa5fd;
+}
+/******* /CONTENT *******/
+/******* FOOTER *******/
+#footer{
+	background: #efefef;
+	border: 1px solid #d0ccc9;
+	padding: 10px;
+	color: #7e7e7e;
+	font-size: 11px;
+	text-align: right;
+}
+/******* /FOOTER *******/

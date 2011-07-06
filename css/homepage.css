@@ -1,0 +1,122 @@
+body {
+	font-family:Helvetica Neue Arial Lucida, sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	height: 100%;
+}
+
+
+
+#left {
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  width: 200px;
+}
+#center {
+  top: 0;
+  margin-left: 230px;
+  margin-right: 230px;
+  background-color:#bbb;
+}
+
+#center h2{	
+	font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:24px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px;
+        text-align:left;        
+}
+.album{
+  width:100%;
+  background-color: white; 
+  padding: 10px; 
+  float: left;
+}
+.album .imageSingle {
+  float: left;
+  margin: 34px; 
+  width:250px; 
+  text-align:center; 
+  border:solid 1px #333;
+  margin-right: 35px;
+}
+.album .imageSingle .image {
+  width:150px; 
+  height:150px; 
+  margin:3px;
+}
+.album .footer {
+  text-align:center;
+  font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+  width: 250px; 
+  border-top:solid 1px #333; 
+  color:#999;  
+  padding-top: 7px; 
+  padding-bottom:7px; 
+  margin-top: 10px;
+}
+
+#right {
+  position: absolute;
+  right: 15px;
+  top: 160px;
+  width: 200px;
+}
+
+#footer {
+	clear: both;
+	bottom: 0;
+}
+
+#footer ul {
+	list-style: none;
+        text-align: center;
+        font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:10px; 
+        font-weight:200px; 
+        letter-spacing:1px; 
+        line-height:12px; 
+        padding:10px 10px 0 450px;
+}
+
+    
+#footer li {
+	float: left;
+	border-right: 1px solid #bbb;
+	border-bottom-width: 0;
+}
+
+#footer li:nth-child(5){
+	border-right:none;
+}
+    
+#footer a {
+	text-decoration: none;
+	display: block;
+	padding: 0.24em 1em;
+	color: black;
+	width: 8em;
+	text-align: center;
+}
+	
+#footer a:hover {
+	background: rgb(240,240,240);
+}
+	
+#footer #selected {
+	border-color: black;
+}
+	
+#footer #selected a {
+	position: relative;
+	top: 1px;
+	background: white;
+	color: black;
+	font-weight: bold;
+}

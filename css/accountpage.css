@@ -1,0 +1,47 @@
+body {
+		font-family:Helvetica Neue Arial Lucida, sans-serif;
+		background:white;
+		color:black;
+} 
+
+#container {
+		width: 1000px;
+		margin: auto;
+}
+
+#theForm{
+		margin-top:100px;
+		margin-left:100px;
+}
+	
+#content{
+		clear: both;
+		text-align: left;
+		font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+}
+
+#accountForm td{
+	padding-bottom:10px;
+}
+
+#name {
+		text-align: left;
+		font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+        font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+}
+
+#bio { 
+		text-align: left;
+		font-family: Helvetica Neue, Arial, Lucida, sans-serif;
+    	font-size:16px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px; 
+}

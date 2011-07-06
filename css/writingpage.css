@@ -1,0 +1,57 @@
+body {
+	font-family:Helvetica Neue Arial Lucida, sans-serif;
+}
+
+#center {
+  top: 0;
+	width:1060px;
+	margin:auto;
+}
+
+#center h2{	
+	font-family: Helvetica Neue, Arial, Lucida, sans-serif; 
+        font-size:24px; 
+        font-weight:200; 
+        letter-spacing:1px; 
+        line-height:22px;
+        text-align:left;        
+}
+
+#piecesTable{
+	width:100%;
+}
+
+#piecesTable td{
+	width:33%;
+	padding: 0px 10px 50px 10px;
+	vertical-align:bottom;
+}
+
+#piecesTable a{
+	color:black;
+	text-decoration:none;
+}
+
+#piecesTable a:hover{
+	text-decoration:underline;
+}
+
+.text{
+	display:block;
+	background:rgba(210,210,210,.5);
+	line-height:1.35em;
+	width:300px;
+	height:258px;
+	padding: 10px 10px 30px 10px;
+}
+
+.name{
+	font-size:.9em;
+}
+
+.title{
+	width:90%;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+}
