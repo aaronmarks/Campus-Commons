@@ -1,36 +1,37 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-
+<html>
 <head>
 <link rel="stylesheet" href="css/campuscreatives.css">
 <title>Campus Creatives</title>
+</head>
 
 <script>
 function showLogin()
 {
-	document.getElementById('loginForm').setAttribute('style', 'visibility:visible;display:block;margin-top:-20px;');
-	document.getElementById('loginLink').setAttribute('style', 'visibility:hidden;');
+	document.getElementById("login").setAttribute("style", "visibility: visible");
+	document.getElementById("loginLink").setAttribute("style", "visibility: hidden");
 }
 </script>
 
-</head>
-<body>
-    <div class="top">
-       <div class="twrapper">
-           
-<div id="login">
-<a id='loginLink' onClick="showLogin();" href="#">Log In</a>
-<form style='visibility:hidden'id='loginForm' type="POST" action="/commons/login.php">
+<body> 
+
+<div id="loginLink">
+ <label for="login" onclick="showLogin()" class="uiButton"><input type="submit" id="button" tabindex="4" value="Login"></label> 
+</div>
+
+<div style="visibility: hidden" id="login">
+<form  type="POST" action="/commons/login.php">
 <table>
 
   <tr>
     <td>
-</td><td><input type="text" value="email" name="login_email"  onclick="this.value='';" onfocus="this.style.color='black';">
+</td><td><input type="text" value="email" id="login_box" name="login_email"  onclick="this.value='';" onfocus="this.style.color='black';">
     </td>
     <td>
-</td><td><input type="text" value="password" name="login_password"  onclick="this.value='';" onfocus="this.style.color='black';">
+</td><td><input type="text" value="password" id="login_box" name="login_password"  onclick="this.value='';" onfocus="this.style.color='black';">
     </td>
     <td>
-          <label for="login" class="uiButton"><input type="submit" id="login" tabindex="4" value="Login"></label>
+          <label for="login" class="uiButton"><input type="submit" id="button" tabindex="4" value="Login"></label>
     </td>
    </tr>
    <tr>
@@ -38,44 +39,38 @@ function showLogin()
 </table>
 </form></div>
 
-</head>
-
 <div id="container">
 
 <div id="header"> 
 
 <h1>Campus Creatives</h1>
+<br>
+<br>
 <ul>
-	<li><a href="#">All</a></li>
-	<li><a href="#">Music</a></li>
-	<li><a href="#">Visual Art</a></li>
-	<li><a href="#">Film</a></li>
-	<li><a href="#">Writing</a></li>
-	<li><a href="#">Photography</a></li>
+	<li><a>Music</a></li>
+	<li><a>Visual Art</a></li>
+	<li><a>Film</a></li>
+	<li><a>Writing</a></li>
+	<li><a>Photography</a></li>
 </ul>
 </div>
 
-<br/>
-<br/>
-
-<div id="content">
-	<p>Join the new culture community:</p>
-</div>
+<br>
+<br>
+<br>
+<br>
 
 <div id="email">
-
 <form type="POST" action="/commons/codesend.php">
 <table>
-<tr><td>NYU Email: </td><td><input type="text" value="Your university email" name="email"  onclick="this.value='';" onfocus="this.style.color='black';"></td></tr>
-<tr><td>Password: </td><td><input type="password" name="password"></td></tr>
+<tr><td><input type="text" value="Your university email" id="login_box" name="email"  onclick="this.value='';" onfocus="this.style.color='black';"></td>
+<td><input type="password" value="password" id="login_box" name="password" onclick="this.value='';" onfocus="this.style.color='black';"></td>
 <td>
-</td></tr>
-<tr><td colspan="2"><input type="submit" id='submit' value='Sign Up'></td></tr>
+<td colspan="2"><input type="submit" id='submit' value='Sign Up'></td></tr>
 </table>
 </form>
 </div>
 
-</div>
 
 </body>
 </html>
