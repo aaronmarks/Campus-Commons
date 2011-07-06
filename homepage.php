@@ -4,7 +4,7 @@ include 'include/commonTop.php';
 <HTML>
 <head>
 <link rel="stylesheet" href="css/homepage.css">
-<title>Home</title>
+<title>Campus Commons</title>
 </head>
 
 <body>
